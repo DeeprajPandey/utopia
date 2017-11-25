@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+        <script
+                src="https://code.jquery.com/jquery-3.1.1.min.js"
+                integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+                crossorigin="anonymous"></script>
+        <script src="semantic/dist/semantic.min.js"></script>
+    </head>
+    <body>
+        <table class="ui celled padded table">
+        <thead>
+            <tr><th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr></thead>
+        <tbody>
+            <tr>
+                <td class="ui center aligned">
+                    8:30 - 10:00
+                </td>
+                <td id="11">
+                    lol
+                </td>
+                <td id="12"></td>
+                <td id="13"></td>
+                <td id="14"></td>
+                <td id="15"></td>
+                <td id="16"></td>
+                <td id="17"></td>
+            </tr>
+            <tr>
+                <td class="ui center aligned">
+                    10:00 - 11:30
+                </td>
+                <td id="21"></td>
+                <td id="22"></td>
+                <td id="23"></td>
+                <td id="24"></td>
+                <td id="25"></td>
+                <td id="26"></td>
+                <td id="27"></td>
+            </tr>
+        </tbody>
+        </table>
+        <div id="m11" class="ui small modal">
+            <div class="header">Huehuehue</div>
+            <div class="content">
+                <ul>
+                    <li>lmao</li>
+                    <li>lmao</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script>
+        $('#11').on("click", function(){
+            $('#m11').modal('show');
+        });
+    </script>
+</html>
